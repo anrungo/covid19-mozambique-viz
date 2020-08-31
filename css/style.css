@@ -1,0 +1,175 @@
+/* Add maven for code font (keep other xaringan defaults */
+/*@import url(https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css);*/
+
+img{
+     max-width:48px;
+     max-height:48px;
+}
+
+logo{
+  font-size: 14px;
+  padding: 0;
+  align-items: middle;
+
+}
+
+.navbar-inverse {
+   /*background-color: red;
+   font-size: 44px;*/
+}
+
+.navbar-inverse logo {
+   /*background-color: red;*/
+   font-size: 44px;
+}
+
+.intro1 {
+  background-color: #0a8389; /*#413395;*/
+  color: white;
+  padding: 13px 8px;
+  /*justify-content: center;*/
+  font-size: 16px;
+  text-align: center;
+}
+
+.intro2 {
+  background-color: #3F567D;/*70c3a7;*/
+  padding: 11px 8px;
+  /*justify-content: center;*/
+  color: white;
+  font-size: 16px;
+  margin-top: 7px;
+  text-align: justify;
+}
+
+body {
+/*text-align: justify;*/
+  
+}
+
+value {
+  font-size: 13px;
+}
+
+span {
+  font-size: 12px;
+  color: white; /*#413395*/
+}
+
+
+footer {
+  background: #f63232;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+h5 {
+  font-size: 12px;
+  color: #413395;
+  margin-left: 1px;
+  background-color: #ffbc00;
+  padding: 10px 0;
+  margin-top: 0;
+}
+
+/*.first-box {
+   background-color: #413395;
+   color: white;
+}*/
+
+header {
+  background-color: red;
+  text-align: center;
+  position: relative;
+  /*top: -25px;*/
+  left: 0;
+  z-index: 1;
+}
+
+header h3 {
+  color: white;
+  border: 8px solid white;
+  display: inline-block;
+  padding: 0px 16px 6px 16px;
+  border-radius: 36px;
+  top: -120px;
+}
+
+.chart-title {  /* chart_title  */
+   background-color: #6527AE; /*#ffbc00; #0A3988*/
+   font-size: 12px;
+   /*font-family: Algerian;*/
+   color: red; /*#413395*/
+
+}
+
+.section.title{
+  color: red;
+}
+
+.h4{
+  font-size: 12px;
+}
+
+.myClass{
+  color:red;
+  font-size: 10px;
+}
+
+
+/* adjust table horizontal spacing */
+th, td {
+    padding:0 15px 0 15px;
+    text-align: left;
+}
+
+th {
+  background-color: #7FB3D5;
+  color: white;
+  font-size: 13pt;
+  font-weight: bold;
+  padding:0 10px 0 10px;
+  text-align: left;
+}
+
+
+
+tbody tr:nth-child(odd){
+  background-color: #A9CCE3;
+  color: black;
+}
+
+tr:nth-child(even){
+  background-color: #D4E6F1;
+  color: black;
+}
+
+li, p {
+    color: #413395;
+    font-size: 14px;
+    text-align: center;
+}
+/* responsive styles */
+
+
+.container {
+  height: 10px;
+  position: relative;
+  border: 3px solid green;
+}
+
+.center {
+  margin: 0;
+  position: relative;
+  /*padding: 20px 15px;*/
+  top: 10%;
+  left: 40%;
+}
+
+
+.bgred {
+  background-color: black;
+}
+
+
